@@ -53,7 +53,7 @@ export class Q1 extends Component {
             matrix[i] = new Array(width).fill(0);  
         }  
   
-        // 初始化基准概率  111
+        // 初始化基准概率  
         const baseProbabilities = colors.map(() => 1 / colors.length);  
   
         // 遍历矩阵并设置颜色  
